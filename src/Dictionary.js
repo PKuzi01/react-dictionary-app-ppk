@@ -15,7 +15,7 @@ function Dictionary() {
     return (
         <div>
             <form onSubmit={search}>
-                <input type="search" autofocus={true} placeholder="Look for a word" onChange={handleSubmit}/>
+                <input type="search" placeholder="Look for a word" onChange={handleSubmit}/>
             </form>
         </div>
     );
