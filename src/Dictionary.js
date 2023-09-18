@@ -9,12 +9,11 @@ function Dictionary() {
     }
 
     function handleResponse(response) {
-        console.log(response.data[0]);
+        console.log(response.data);
     }
 
     function search(event) {
         event.preventDefault();
-        alert(`Searching for the definition of ${keyword}...`);
         
         const apiKey = `9a96e3865c186c9fbo4aaef0cdb0e0dt`;
         const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
