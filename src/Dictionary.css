@@ -1,0 +1,14 @@
+form {
+    text-align: center;
+}
+
+form > input {
+    background: #d3e7a6;
+    border: #566731 solid 6px;
+    border-radius: 15px;
+    color: #212515;
+    font-size: 16px;
+    font-family: 'Mooli', sans-serif;
+    height: 50px;
+    padding: 15px 20px;
+}

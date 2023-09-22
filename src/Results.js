@@ -1,6 +1,8 @@
 import React from "react";
 import Meaning from "./Meaning";
 
+import "./Results.css"
+
 function Results(props) {
     //console.log(props.results);
 
@@ -8,7 +10,7 @@ function Results(props) {
         return (
             <div className="Results">
                 <h2>{props.results.word}</h2>
-                <h3>{props.results.phonetic}</h3>
+                <h3><em>{props.results.phonetic}</em></h3>
                 {props.results.meanings.map(function(meaning, index) {
                    return (
                     <div key={index}>

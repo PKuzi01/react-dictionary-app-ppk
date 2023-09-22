@@ -1,0 +1,16 @@
+.Results {
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #bccf94;
+    box-shadow: 10px 10px 15px #404d25;
+}
+
+.Results > h2 {
+    font-size: 30px;
+}
+
+.Results > h3 {
+    font-size: 23px;
+}

@@ -3,6 +3,8 @@ import axios from "axios";
 
 import Results from "./Results";
 
+import "./Dictionary.css"
+
 function Dictionary() {
     let [keyword, setKeyword] = useState("");
     let [result, setResult] = useState(null);
