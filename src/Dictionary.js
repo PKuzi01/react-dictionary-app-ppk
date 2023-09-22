@@ -8,12 +8,12 @@ function Dictionary() {
     let [result, setResult] = useState(null);
 
     function handleSubmit(event) {
-        console.log(event.target.value);
+        //console.log(event.target.value);
         setKeyword(event.target.value);
     }
 
     function handleResponse(response) {
-        console.log(response.data);
+        //console.log(response.data);
         setResult(response.data);
     }
 
