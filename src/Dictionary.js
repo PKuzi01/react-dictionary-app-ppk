@@ -33,7 +33,11 @@ function Dictionary() {
                 <form onSubmit={search}>
                     <input type="search" placeholder="Look for a word" onChange={handleSubmit}/>
                 </form>
+                <div className="hint">
+                    Suggested words: pineapple, sing, forest, that one word at the beginning of Akeelah and the Bee...
+                </div>
                 <Results results={result}/>
+                
             </div>
         );
    
