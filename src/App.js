@@ -13,7 +13,7 @@ function App() {
             What word do you want to look up?
           </h2>
         </div>
-        <Dictionary />
+        <Dictionary defaultKeyword="ludicrous"/>
       </div>
     </div>
   );
