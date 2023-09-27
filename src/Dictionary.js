@@ -20,10 +20,17 @@ function Dictionary(props) {
         setResult(response.data);
     }
 
+    function handlePicResponse(response) {
+        console.log(response.data.photos);
+    }
+
     function search() {
         const apiKey = `9a96e3865c186c9fbo4aaef0cdb0e0dt`;
         const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
         axios.get(apiUrl).then(handleResponse);
+
+        const picApiKey =`https://api.shecodes.io/images/v1/search?query=${keyword}&key=${apiKey}`;
+        axios.get(picApiKey).then(handlePicResponse);
     }
 
     function handleSubmit(event) {
