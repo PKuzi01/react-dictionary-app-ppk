@@ -12,7 +12,7 @@ function Meaning(props) {
             <p><strong>Definition:</strong> {props.meaning.definition}</p>
             <Example example={props.meaning.example} /> 
             <Synonyms synonyms={props.meaning.synonyms} />
-            <Antonyms antonyms={props.meaning.antonyms} />
+
         </div>
         
     );

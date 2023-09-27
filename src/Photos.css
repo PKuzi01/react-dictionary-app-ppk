@@ -1,0 +1,20 @@
+.Photos {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    max-width: 720px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #bccf94;
+    box-shadow: 10px 10px 15px #404d25;
+}
+
+.Photos  img {
+    border-radius: 10px;
+    width: 150px;
+    height: 100px;
+    border: 3px solid #212813;
+    box-shadow: 5px 5px 15px #404d25;
+}

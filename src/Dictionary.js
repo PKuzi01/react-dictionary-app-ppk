@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 import Results from "./Results";
+import Photos from "./Photos";
 
 import "./Dictionary.css"
 
@@ -9,6 +10,7 @@ function Dictionary(props) {
     let [keyword, setKeyword] = useState(props.defaultKeyword);
     let [result, setResult] = useState(null);
     let [loaded, setLoaded] = useState(false);
+    let [photos, setPhotos] = useState(null);
 
     function handleKeywordChange(event) {
         //console.log(event.target.value);
@@ -21,7 +23,8 @@ function Dictionary(props) {
     }
 
     function handlePicResponse(response) {
-        console.log(response.data.photos);
+        //console.log(response.data.photos);
+        setPhotos(response.data.photos)
     }
 
     function search() {
@@ -52,7 +55,8 @@ function Dictionary(props) {
                 <div className="hint">
                     Suggested words: pineapple, sing, forest, that one word at the beginning of Akeelah and the Bee...
                 </div>
-                <Results results={result}/>
+                <Results results={result} />
+                <Photos  photos={photos} />
             </div>
         );
     } else {
