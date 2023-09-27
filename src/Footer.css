@@ -1,0 +1,14 @@
+.Footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #1c2014;
+}
+
+a {
+    text-decoration: none;
+    color: #1c2014;
+}
+
+a:hover {
+    text-decoration: underline;
+}

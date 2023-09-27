@@ -1,5 +1,6 @@
 import './App.css';
 import Dictionary from "./Dictionary.js"
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           </h2>
         </div>
         <Dictionary defaultKeyword="greeting"/>
+        <Footer />
       </div>
     </div>
   );
