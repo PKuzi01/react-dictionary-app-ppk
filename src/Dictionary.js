@@ -40,13 +40,12 @@ function Dictionary(props) {
         return (
             <div>
                 <form onSubmit={handleSubmit}>
-                    <input type="search" placeholder="Look for a word" onChange={handleKeywordChange}/>
+                    <input type="search" placeholder="Look for a word" onChange={handleKeywordChange} defaultValue={props.defaultKeyword}/>
                 </form>
                 <div className="hint">
                     Suggested words: pineapple, sing, forest, that one word at the beginning of Akeelah and the Bee...
                 </div>
                 <Results results={result}/>
-                
             </div>
         );
     } else {
