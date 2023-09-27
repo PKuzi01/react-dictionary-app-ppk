@@ -12,7 +12,7 @@ function Photos(props) {
                                     <img className="img-fluid" alt="img" src={photo.src.landscape} />
                             </a>
                         ) 
-                    })};
+                    })}
             </div>
         );
     } else {
