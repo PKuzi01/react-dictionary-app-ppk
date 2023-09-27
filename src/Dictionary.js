@@ -24,7 +24,6 @@ function Dictionary(props) {
         const apiKey = `9a96e3865c186c9fbo4aaef0cdb0e0dt`;
         const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
         axios.get(apiUrl).then(handleResponse);
-
     }
 
     function handleSubmit(event) {
