@@ -9,7 +9,7 @@
 9/10
 
 ##### Comments:
-Again, I really like React. I am so ready to learn my way through all the nooks and crannies of the entire thing, I am enticed. A bit bittersweet, as it is the last workshop I'll be doing for SheCodes. I learned so much, what amagical place. Now, I'm a front-end developer. So sick. Note to self: *You did it again. Well done! I'm so proud of you.*.
+Again, I really like React. I am so ready to learn my way through all the nooks and crannies of the entire thing, I am enticed. A bit bittersweet, as it is the last workshop I'll be doing for SheCodes. I learned so much, what a magical place. Now, I'm a front-end developer. So sick. Note to self: *You did it again. Well done! I'm so proud of you.*.
 
 ##### Skills acquired:
 * React.js
